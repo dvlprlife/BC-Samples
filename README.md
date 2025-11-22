@@ -10,9 +10,7 @@ A collection of code samples and examples for Microsoft Dynamics 365 Business Ce
 ## Who This Is For
 
 - Business Central developers looking for code examples
-- Consultants implementing Business Central solutions
-- Teams standardizing development practices
-- Developers new to AL language and Business Central customization
+- Consultants looking for code examples in Business Central solutions
 
 ## Getting Started
 

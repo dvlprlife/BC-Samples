@@ -1,6 +1,6 @@
 function Render(html) {
     try {
-        documentElement.insertAdjacentHTML('beforeend', html);
+        document.body.insertAdjacentHTML('beforeend', html);
     }
     catch (e) {
         Microsoft.Dynamics.NAV.InvokeExtensibilityMethod('ShowError', [e.toString()]);
@@ -17,8 +17,8 @@ function Animate() {
 
         function animateMerry() {
             merryX -= speed;
-            if (merryX < -merryText.innerWidth) {
-                merryX = documentElement.innerWidth;
+            if (merryX < -merryText.offsetWidth) {
+                merryX = window.innerWidth;
             }
             merryText.style.left = merryX + 'px';
             requestAnimationFrame(animateMerry);

@@ -1,0 +1,29 @@
+{
+    "folders": [
+        {
+            "name": "usercontrol1",
+            "path": "usercontrol1"
+        },
+        {
+            "name": "supporting-files",
+            "path": "supporting-files"
+        }
+    ],
+    "settings": {
+        "al.backgroundCodeAnalysis": true,
+        "al.browser": "SystemDefault",
+        "al.enableCodeAnalysis": true,
+        "al.incognito": false,
+        "al.incrementalBuild": false,
+        "al.packageCachePath": "../supporting-files/.alpackages",
+        "al.snapshotDebuggingPath": "../supporting-files/.snapshot",
+        "al.snapshotOutputPath": "../supporting-files/.snapshots",
+        "editor.renderWhitespace": "all",
+        "cSpell.words": [
+            "alpackages",
+            "DVLPR",
+            "dvlprlife",
+            "usercontrol"
+        ]
+    }
+}

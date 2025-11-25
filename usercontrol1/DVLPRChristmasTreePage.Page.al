@@ -17,7 +17,18 @@ page 50100 "DVLPR Christmas Tree Page"
                 {
                     trigger OnControlAddInReady()
                     begin
-                        CurrPage.PageControlAddIn.Render('<div id="scrolltext">Merry Christmas!</div>');
+                        CurrPage.PageControlAddIn.Render(@'
+                        <div id="scrolltext">Merry Christmas!</div>
+                        <div class="tree">
+                            <div class="lights">
+                                <div class="light"></div>
+                                <div class="light"></div>
+                                <div class="light"></div>
+                                <div class="light"></div>
+                                <div class="light"></div>
+                                <div class="stump"></div>
+                            </div>
+                        </div>');
                         CurrPage.PageControlAddIn.Animate();
                     end;
 

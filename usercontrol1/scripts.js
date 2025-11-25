@@ -1,6 +1,7 @@
 function Render(html) {
     try {
-        document.body.insertAdjacentHTML('beforeend', html);
+        documentElement = document.getElementById('controlAddIn');
+        document.getElementById('controlAddIn').innerHTML = html;
     }
     catch (e) {
         Microsoft.Dynamics.NAV.InvokeExtensibilityMethod('ShowError', [e.toString()]);

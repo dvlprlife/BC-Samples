@@ -15,8 +15,8 @@ controladdin DVLPRControlAddIn
     VerticalShrink = true;
     VerticalStretch = true;
 
-    procedure Render(html: Text)
     procedure Animate()
+    procedure Render(html: Text);
     event OnControlAddInReady();
     event ShowError(ErrorTxt: Text);
 }

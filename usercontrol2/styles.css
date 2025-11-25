@@ -67,7 +67,7 @@ body {
 .game-area {
   position: relative;
   width: 720px;
-    height: 480px;
+  height: 480px;
   border-radius: 24px;
   background: linear-gradient(160deg, #252941 0%, #111424 100%);
   overflow: hidden;
@@ -98,10 +98,12 @@ body {
     transform: scale(1);
     opacity: 0.95;
   }
+
   60% {
     transform: scale(1.18);
     opacity: 1;
   }
+
   100% {
     transform: scale(0.2);
     opacity: 0;

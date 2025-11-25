@@ -5,6 +5,10 @@
             "path": "usercontrol1"
         },
         {
+            "name": "usercontrol2",
+            "path": "usercontrol2"
+        },
+        {
             "name": "supporting-files",
             "path": "supporting-files"
         }

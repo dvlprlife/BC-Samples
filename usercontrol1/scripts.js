@@ -1,6 +1,6 @@
 function Render(html) {
     try {
-        documentElement = document.getElementById('controlAddIn');
+        //documentElement = document.getElementById('controlAddIn');
         document.getElementById('controlAddIn').innerHTML = html;
     }
     catch (e) {

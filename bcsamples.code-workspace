@@ -9,6 +9,10 @@
             "path": "usercontrol2"
         },
         {
+            "name": "pagebackgroundtasks1",
+            "path": "pagebackgroundtasks1"
+        },
+        {
             "name": "supporting-files",
             "path": "supporting-files"
         }
@@ -16,6 +20,9 @@
     "settings": {
         "al.backgroundCodeAnalysis": true,
         "al.browser": "SystemDefault",
+        "al.compilationOptions": {
+            "outFolder": "../supporting-files/output"
+        },
         "al.enableCodeAnalysis": true,
         "al.incognito": false,
         "al.incrementalBuild": false,
@@ -25,8 +32,13 @@
         "editor.renderWhitespace": "all",
         "cSpell.words": [
             "alpackages",
+            "Codeunit",
             "DVLPR",
             "dvlprlife",
+            "pagebackgroundtask",
+            "pagebackgroundtasks",
+            "Payables",
+            "rolecenter",
             "scrolltext",
             "usercontrol"
         ]

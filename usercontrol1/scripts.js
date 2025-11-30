@@ -1,6 +1,5 @@
 function Render(html) {
     try {
-        //documentElement = document.getElementById('controlAddIn');
         document.getElementById('controlAddIn').innerHTML = html;
     }
     catch (e) {
@@ -11,7 +10,6 @@ function Render(html) {
 function Animate() {
     try {
         const merryText = document.getElementById('scrolltext')
-        //merryText.style.backgroundColor = 'red';
 
         let merryX = window.innerWidth;
         const speed = 2;

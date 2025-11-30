@@ -20,4 +20,4 @@ This sample AL application demonstrates how to host an interactive JavaScript ga
 2. Open page 50110 **Pop Game Page**.
 3. Wait for the control add-in to finish initializing (AL shows a confirmation message), then select **Start Game** to begin. For sixty seconds, circles appear at random positions—click to pop them, and watch the HUD update in real time. Any browser errors bubble back through the `ShowError` event.
 
-This example focuses on blending AL event handling with a richer JavaScript experience, illustrating how to coordinate UI state, timers, and accessibility considerations within a Business Central control add-in.
+**Note:** The code and information discussed in this article are for informational and demonstration purposes only. This content was created referencing Microsoft Dynamics 365 Business Central 2025 Wave 2 online. This example focuses on blending AL event handling with a richer JavaScript experience, illustrating how to coordinate UI state, timers, and accessibility considerations within a Business Central control add-in.

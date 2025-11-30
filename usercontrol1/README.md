@@ -20,4 +20,4 @@ This sample AL application demonstrates how to create and host a custom JavaScri
 2. Open page 50100 **Christmas Tree Page**.
 3. Wait for the control add-in to initialize; the banner text will render and scroll across the view. Errors encountered in the browser are relayed to Business Central through the `ShowError` event.
 
-This example focuses on demonstrating the pattern for coupling AL and JavaScript through a control add-in while keeping the implementation intentionally simple and approachable.
+**Note:** The code and information discussed in this article are for informational and demonstration purposes only. This content was created referencing Microsoft Dynamics 365 Business Central 2025 Wave 2 online. This example focuses on demonstrating the pattern for coupling AL and JavaScript through a control add-in while keeping the implementation intentionally simple and approachable.

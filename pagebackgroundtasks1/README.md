@@ -33,3 +33,5 @@ This sample Business Central extension shows how to populate Role Center cues by
 
 ## Notes
 - Background task errors currently surface in the page error trigger; extend `OnPageBackgroundTaskError` if you need custom logging or user messaging.
+
+**Note:** The code and information discussed in this article are for informational and demonstration purposes only. This content was created referencing Microsoft Dynamics 365 Business Central 2025 Wave 2 online.

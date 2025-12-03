@@ -29,4 +29,5 @@ When you use the binding action, the subscriber is activated just for that sessi
 
 ## Additional Resources
 - [Session.BindSubscription Method](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/session/session-bindsubscription-method)
+- [Session.UnbindSubscription Method](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/session/session-unbindsubscription-method)
 - [EventSubscriberInstance Property](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-eventsubscriberinstance-property)

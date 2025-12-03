@@ -1,16 +1,20 @@
 {
     "folders": [
         {
+            "name": "eventsubscriberinstance1",
+            "path": "eventsubscriberinstance1"
+        },
+        {
+            "name": "pagebackgroundtasks1",
+            "path": "pagebackgroundtasks1"
+        },
+        {
             "name": "usercontrol1",
             "path": "usercontrol1"
         },
         {
             "name": "usercontrol2",
             "path": "usercontrol2"
-        },
-        {
-            "name": "pagebackgroundtasks1",
-            "path": "pagebackgroundtasks1"
         },
         {
             "name": "supporting-files",
@@ -32,9 +36,11 @@
         "editor.renderWhitespace": "all",
         "cSpell.words": [
             "alpackages",
+            "bindsubscription",
             "Codeunit",
             "DVLPR",
             "dvlprlife",
+            "eventsubscriberinstance",
             "pagebackgroundtask",
             "pagebackgroundtasks",
             "Payables",

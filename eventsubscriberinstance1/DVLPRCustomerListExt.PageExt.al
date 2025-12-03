@@ -21,9 +21,9 @@ pageextension 50130 "DVLPR Customer List Ext" extends "Customer List"
                     ToolTip = 'Opens the Customer Card page without binding.';
                     trigger OnAction()
                     var
-                        HelloWorldExampleCodeunit: Codeunit "DVLPR BindSubscription Example";
+                        BindSubscriptionExample: Codeunit "DVLPR BindSubscription Example";
                     begin
-                        HelloWorldExampleCodeunit.OpenCustomerCard(Rec);
+                        BindSubscriptionExample.OpenCustomerCard(Rec);
                     end;
                 }
                 action(DVLPROpenCustomerCardBindingAction)
@@ -34,9 +34,9 @@ pageextension 50130 "DVLPR Customer List Ext" extends "Customer List"
                     ToolTip = 'Opens the Customer Card page with binding.';
                     trigger OnAction()
                     var
-                        HelloWorldExampleCodeunit: Codeunit "DVLPR BindSubscription Example";
+                        BindSubscriptionExample: Codeunit "DVLPR BindSubscription Example";
                     begin
-                        HelloWorldExampleCodeunit.OpenCustomerCardBinding(Rec);
+                        BindSubscriptionExample.OpenCustomerCardBinding(Rec);
                     end;
                 }
             }

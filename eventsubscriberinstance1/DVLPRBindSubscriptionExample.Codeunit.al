@@ -14,12 +14,12 @@ codeunit 50131 "DVLPR BindSubscription Example"
 
     procedure OpenCustomerCardBinding(Rec: Record "Customer")
     var
-        BindingExampleCodeunit: Codeunit "DVLPR Subscription Management";
+        SubscriptionManagement: Codeunit "DVLPR Subscription Management";
         CustomerCardPage: Page "Customer Card";
     begin
-        Session.BindSubscription(BindingExampleCodeunit);
+        Session.BindSubscription(SubscriptionManagement);
         CustomerCardPage.SetRecord(Rec);
         CustomerCardPage.RunModal();
-        Session.UnbindSubscription(BindingExampleCodeunit);
+        Session.UnbindSubscription(SubscriptionManagement);
     end;
 }

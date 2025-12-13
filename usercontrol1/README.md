@@ -11,9 +11,9 @@ This sample AL application demonstrates how to create and host a custom JavaScri
 ## Solution Structure
 - `DVLPRChristmasTreePage.Page.al` creates page 50100 and wires the control add-in.
 - `DVLPRControlAddIn.ControlAddin.al` defines the control add-in and its callable surface.
-- `start.js` bootstraps the control add-in (Business Central loads this automatically).
-- `scripts.js` implements the rendering and animation logic.
-- `style.css` contains styling for the marquee effect.
+- `controladdin/start.js` bootstraps the control add-in (Business Central loads this automatically).
+- `controladdin/scripts.js` implements the rendering and animation logic.
+- `controladdin/style.css` contains styling for the marquee effect.
 
 ## Running the Sample
 1. Publish the extension to a Business Central sandbox.

@@ -9,9 +9,9 @@ controladdin DVLPRControlAddIn
     MinimumWidth = 700;
     RequestedHeight = 300;
     RequestedWidth = 700;
-    Scripts = 'scripts.js';
-    StartupScript = 'start.js';
-    StyleSheets = 'style.css';
+    Scripts = 'controladdin/scripts.js';
+    StartupScript = 'controladdin/start.js';
+    StyleSheets = 'controladdin/style.css';
     VerticalShrink = true;
     VerticalStretch = true;
 

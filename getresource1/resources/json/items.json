@@ -1,0 +1,29 @@
+{
+  "Items": [
+    {
+      "No.": "1000",
+      "Description": "Bicycle",
+      "Unit Price": 899.00
+    },
+    {
+      "No.": "1001",
+      "Description": "Helmet",
+      "Unit Price": 49.95
+    },
+    {
+      "No.": "1002",
+      "Description": "Water Bottle",
+      "Unit Price": 9.99
+    },
+    {
+      "No.": "1003",
+      "Description": "Bike Lock",
+      "Unit Price": 29.50
+    },
+    {
+      "No.": "1004",
+      "Description": "Bike Light Set",
+      "Unit Price": 24.99
+    }
+  ]
+}

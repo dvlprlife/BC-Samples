@@ -1,0 +1,22 @@
+Subject: Thank you for your purchase, {{Name}}!
+
+Hi {{Name}},
+
+Thank you for your purchase of {{Product}}.
+
+Order details
+- Order No.: {{OrderNo}}
+- Order Date: {{OrderDate}}
+- Quantity: {{Quantity}}
+- Unit Price: {{UnitPrice}}
+- Total: {{Total}}
+
+We’re getting your order ready and will notify you when it ships.
+
+If you have any questions, reply to this email or contact us at {{SupportEmail}}.
+
+Thanks again,
+{{SenderName}}
+{{CompanyName}}
+{{CompanyPhone}}
+{{CompanyWebsite}}

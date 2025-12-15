@@ -5,6 +5,10 @@
             "path": "eventsubscriberinstance1"
         },
         {
+            "name": "getresource1",
+            "path": "getresource1"
+        },
+        {
             "name": "pagebackgroundtasks1",
             "path": "pagebackgroundtasks1"
         },
@@ -41,6 +45,7 @@
             "DVLPR",
             "dvlprlife",
             "eventsubscriberinstance",
+            "getresource",
             "pagebackgroundtask",
             "pagebackgroundtasks",
             "Payables",

@@ -1,0 +1,43 @@
+{
+  "id": "7c8b4b7d-5d2d-44b9-9b2b-2fb0d2c4c6e1",
+  "name": "getresource1",
+  "publisher": "Default Publisher",
+  "version": "1.0.0.0",
+  "platform": "1.0.0.0",
+  "application": "27.0.0.0",
+  "runtime": "16.0",
+  "resourceFolders": [
+    "resources"
+  ],
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "idRanges": [
+    {
+      "from": 50120,
+      "to": 50129
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ],
+  "suppressWarnings": [
+    "AS0051",
+    "AS0052",
+    "AS0054",
+    "AS0084",
+    "AS0092"
+  ]
+}

@@ -96,11 +96,11 @@ page 50122 "DVLPR GetResource Files"
     var
         ResourceList: List of [Text];
         ResourceNames: Text;
-        i: Integer;
+        resourceIndex: Integer;
     begin
         ResourceList := NavApp.ListResources(filter);
-        for i := 1 to ResourceList.Count() do
-            ResourceNames := i = ResourceList.Count() ? ResourceNames + ' ' + ResourceList.Get(i) : ResourceNames + ' ' + ResourceList.Get(i) + '\';
+        for resourceIndex := 1 to ResourceList.Count() do
+            ResourceNames := resourceIndex = ResourceList.Count() ? ResourceNames + ' ' + ResourceList.Get(resourceIndex) : ResourceNames + ' ' + ResourceList.Get(resourceIndex) + '\';
 
         exit(ResourceNames);
     end;

@@ -1,6 +1,10 @@
 {
     "folders": [
         {
+            "name": "accessproperty1",
+            "path": "accessproperty1"
+        },
+        {
             "name": "eventsubscriberinstance1",
             "path": "eventsubscriberinstance1"
         },
@@ -39,6 +43,7 @@
         "al.snapshotOutputPath": "../supporting-files/.snapshots",
         "editor.renderWhitespace": "all",
         "cSpell.words": [
+            "accessproperty",
             "alpackages",
             "bindsubscription",
             "Codeunit",

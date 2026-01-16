@@ -1,6 +1,10 @@
 {
     "folders": [
         {
+            "name": "abouttitle1",
+            "path": "abouttitle1"
+        },
+        {
             "name": "accessproperty1",
             "path": "accessproperty1"
         },

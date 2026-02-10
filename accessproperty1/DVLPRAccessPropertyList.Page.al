@@ -1,6 +1,4 @@
-namespace accessproperty.accessproperty;
-
-using dvlprlife.accessproperty1.accessproperty;
+namespace dvlprlife.accessproperty1.accessproperty;
 
 page 50140 "DVLPR Access Property List"
 {

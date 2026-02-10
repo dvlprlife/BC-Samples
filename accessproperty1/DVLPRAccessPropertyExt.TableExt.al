@@ -1,7 +1,4 @@
-namespace accessproperty.accessproperty;
-
-using dvlprlife.accessproperty1.accessproperty;
-using System.Reflection;
+namespace dvlprlife.accessproperty1.accessproperty;
 
 tableextension 50140 "DVLPR Access Property Ext" extends "DVLPR Access Property"
 {

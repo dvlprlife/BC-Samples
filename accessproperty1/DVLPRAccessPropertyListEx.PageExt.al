@@ -1,4 +1,4 @@
-namespace accessproperty.accessproperty;
+namespace dvlprlife.accessproperty1.accessproperty;
 
 pageextension 50140 "DVLPR Access Property List Ex" extends "DVLPR Access Property List"
 {

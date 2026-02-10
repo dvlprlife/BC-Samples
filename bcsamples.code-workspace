@@ -17,6 +17,10 @@
             "path": "getresource1"
         },
         {
+            "name": "interface1",
+            "path": "interface1"
+        },
+        {
             "name": "pagebackgroundtasks1",
             "path": "pagebackgroundtasks1"
         },

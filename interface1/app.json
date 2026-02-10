@@ -1,0 +1,42 @@
+{
+  "id": "9d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a",
+  "name": "interface1",
+  "publisher": "Default Publisher",
+  "version": "1.0.0.0",
+  "platform": "1.0.0.0",
+  "application": "27.0.0.0",
+  "runtime": "16.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "idRanges": [
+    {
+      "from": 50160,
+      "to": 50169
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ],
+  "suppressWarnings": [
+    "AS0051",
+    "AS0052",
+    "AS0054",
+    "AS0084",
+    "AS0092",
+    "AS0103",
+    "PTE0004"
+  ]
+}

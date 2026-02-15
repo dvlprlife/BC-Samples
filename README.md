@@ -4,8 +4,16 @@ A collection of code samples and examples for Microsoft Dynamics 365 Business Ce
 
 ## Contents
 
-- **Control Add-ins**: Examples of creating custom UI controls and interactive components
-
+| Project | Description | Object Range |
+|---------|-------------|--------------|
+| [abouttitle1](abouttitle1/) | Using `AboutTitle` and `AboutText` properties to provide contextual teaching tips on pages and fields | 50150–50159 |
+| [accessproperty1](accessproperty1/) | Demonstrates the `Access` property on table fields to control field visibility across extensions | 50140–50149 |
+| [eventsubscriberinstance1](eventsubscriberinstance1/) | Manually binding and unbinding event subscribers at runtime using `EventSubscriberInstance = Manual` | 50130–50139 |
+| [getresource1](getresource1/) | Loading embedded resource files (JSON, text, images) from an extension using `NavApp.GetResource` methods | 50120–50129 |
+| [interface1](interface1/) | Implementing AL interfaces with an enum-based strategy pattern for pluggable discount calculations | 50160–50169 |
+| [pagebackgroundtasks1](pagebackgroundtasks1/) | Using `CurrPage.EnqueueBackgroundTask` to offload data aggregation to page background tasks | 50120–50129 |
+| [usercontrol1](usercontrol1/) | Creating a JavaScript control add-in that renders an animated scrolling banner | 50100–50109 |
+| [usercontrol2](usercontrol2/) | Hosting an interactive JavaScript arcade game inside a Business Central page via a control add-in | 50110–50119 |
 
 ## Who This Is For
 

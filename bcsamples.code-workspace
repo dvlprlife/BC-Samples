@@ -25,6 +25,10 @@
             "path": "pagebackgroundtasks1"
         },
         {
+            "name": "sessionlogmessage1",
+            "path": "sessionlogmessage1"
+        },
+        {
             "name": "usercontrol1",
             "path": "usercontrol1"
         },

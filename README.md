@@ -12,6 +12,7 @@ A collection of code samples and examples for Microsoft Dynamics 365 Business Ce
 | [getresource1](getresource1/) | Loading embedded resource files (JSON, text, images) from an extension using `NavApp.GetResource` methods | 50120–50129 |
 | [interface1](interface1/) | Implementing AL interfaces with an enum-based strategy pattern for pluggable discount calculations | 50160–50169 |
 | [pagebackgroundtasks1](pagebackgroundtasks1/) | Using `CurrPage.EnqueueBackgroundTask` to offload data aggregation to page background tasks | 50120–50129 |
+| [sessionlogmessage1](sessionlogmessage1/) | Using `Session.LogMessage` to emit custom telemetry events to Application Insights | 50170–50179 |
 | [usercontrol1](usercontrol1/) | Creating a JavaScript control add-in that renders an animated scrolling banner | 50100–50109 |
 | [usercontrol2](usercontrol2/) | Hosting an interactive JavaScript arcade game inside a Business Central page via a control add-in | 50110–50119 |
 

@@ -29,6 +29,10 @@
             "path": "sessionlogmessage1"
         },
         {
+            "name": "typehelper1",
+            "path": "typehelper1"
+        },
+        {
             "name": "usercontrol1",
             "path": "usercontrol1"
         },

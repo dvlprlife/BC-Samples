@@ -29,6 +29,10 @@
             "path": "sessionlogmessage1"
         },
         {
+            "name": "stream1",
+            "path": "stream1"
+        },
+        {
             "name": "typehelper1",
             "path": "typehelper1"
         },

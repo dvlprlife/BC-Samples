@@ -1,0 +1,42 @@
+{
+  "id": "fe3f2056-dcd5-41cf-a986-0ee4ed929769",
+  "name": "stream1",
+  "publisher": "Default Publisher",
+  "version": "1.0.0.0",
+  "platform": "1.0.0.0",
+  "application": "27.0.0.0",
+  "runtime": "16.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "idRanges": [
+    {
+      "from": 50190,
+      "to": 50199
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ],
+  "suppressWarnings": [
+    "AS0051",
+    "AS0052",
+    "AS0054",
+    "AS0084",
+    "AS0092",
+    "AS0103",
+    "PTE0004"
+  ]
+}

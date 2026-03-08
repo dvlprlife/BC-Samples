@@ -1,12 +1,10 @@
 namespace dvlprlife.samples.xmlreader1;
 
-using System.Utilities;
-
 page 50201 "DVLPR XML Reader Card"
 {
+    ApplicationArea = All;
     Caption = 'XML Reader Samples';
     PageType = Card;
-    ApplicationArea = All;
     UsageCategory = Tasks;
 
     layout
@@ -27,7 +25,6 @@ page 50201 "DVLPR XML Reader Card"
                 field(OutputText; this.OutputText)
                 {
                     Caption = 'Parsed Output';
-                    ApplicationArea = All;
                     Editable = false;
                     MultiLine = true;
                     ToolTip = 'Displays the parsed output from the imported XML file.';
@@ -47,9 +44,8 @@ page 50201 "DVLPR XML Reader Card"
                 action(ImportXmlFile)
                 {
                     Caption = 'Import XML File';
-                    ToolTip = 'Upload an XML file and parse its sales order content.';
-                    ApplicationArea = All;
                     Image = Import;
+                    ToolTip = 'Upload an XML file and parse its sales order content.';
 
                     trigger OnAction()
                     begin
@@ -59,9 +55,8 @@ page 50201 "DVLPR XML Reader Card"
                 action(LoadSampleXml)
                 {
                     Caption = 'Load Sample XML';
-                    ToolTip = 'Load the embedded sample SalesOrder.xml resource and parse it.';
-                    ApplicationArea = All;
                     Image = XMLFile;
+                    ToolTip = 'Load the embedded sample SalesOrder.xml resource and parse it.';
 
                     trigger OnAction()
                     begin
@@ -78,27 +73,14 @@ page 50201 "DVLPR XML Reader Card"
     local procedure ImportAndParseXmlFile()
     var
         XmlReaderSamples: Codeunit "DVLPR XML Reader Samples";
-        OutputLines: List of [Text];
         InStr: InStream;
+        OutputLines: List of [Text];
         FileName: Text;
     begin
         if not UploadIntoStream('Select an XML file', '', 'XML Files (*.xml)|*.xml', FileName, InStr) then
             exit;
 
         XmlReaderSamples.ReadSalesOrderFromStream(InStr, OutputLines);
-        this.OutputText := this.JoinLines(OutputLines);
-    end;
-
-    local procedure LoadAndParseSampleXml()
-    var
-        XmlReaderSamples: Codeunit "DVLPR XML Reader Samples";
-        OutputLines: List of [Text];
-        ResInStream: InStream;
-        XmlText: Text;
-    begin
-        NavApp.GetResource('xml/SalesOrder.xml', ResInStream, TextEncoding::UTF8);
-        ResInStream.Read(XmlText);
-        XmlReaderSamples.ReadSalesOrderXml(XmlText, OutputLines);
         this.OutputText := this.JoinLines(OutputLines);
     end;
 
@@ -114,5 +96,18 @@ page 50201 "DVLPR XML Reader Card"
                 Result += CrLf;
             Result += Line;
         end;
+    end;
+
+    local procedure LoadAndParseSampleXml()
+    var
+        XmlReaderSamples: Codeunit "DVLPR XML Reader Samples";
+        ResInStream: InStream;
+        OutputLines: List of [Text];
+        XmlText: Text;
+    begin
+        NavApp.GetResource('xml/SalesOrder.xml', ResInStream, TextEncoding::UTF8);
+        ResInStream.Read(XmlText);
+        XmlReaderSamples.ReadSalesOrderXml(XmlText, OutputLines);
+        this.OutputText := this.JoinLines(OutputLines);
     end;
 }

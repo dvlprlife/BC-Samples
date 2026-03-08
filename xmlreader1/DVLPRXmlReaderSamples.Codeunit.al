@@ -2,6 +2,15 @@ namespace dvlprlife.samples.xmlreader1;
 
 codeunit 50200 "DVLPR XML Reader Samples"
 {
+
+    procedure ReadSalesOrderFromStream(XmlStream: InStream; var OutputLines: List of [Text])
+    var
+        XmlDoc: XmlDocument;
+    begin
+        XmlDocument.ReadFrom(XmlStream, XmlDoc);
+        this.ProcessSalesOrder(XmlDoc, OutputLines);
+    end;
+
     procedure ReadSalesOrderXml(XmlText: Text; var OutputLines: List of [Text])
     var
         XmlDoc: XmlDocument;
@@ -9,14 +18,6 @@ codeunit 50200 "DVLPR XML Reader Samples"
         if not XmlDocument.ReadFrom(XmlText, XmlDoc) then
             Error('Failed to parse XML document.');
 
-        this.ProcessSalesOrder(XmlDoc, OutputLines);
-    end;
-
-    procedure ReadSalesOrderFromStream(XmlStream: InStream; var OutputLines: List of [Text])
-    var
-        XmlDoc: XmlDocument;
-    begin
-        XmlDocument.ReadFrom(XmlStream, XmlDoc);
         this.ProcessSalesOrder(XmlDoc, OutputLines);
     end;
 
@@ -31,11 +32,11 @@ codeunit 50200 "DVLPR XML Reader Samples"
 
     local procedure ReadHeader(RootElement: XmlElement; var OutputLines: List of [Text])
     var
-        HeaderNode: XmlNode;
-        HeaderElement: XmlElement;
-        ChildNodes: XmlNodeList;
-        ChildNode: XmlNode;
         ChildElement: XmlElement;
+        HeaderElement: XmlElement;
+        ChildNode: XmlNode;
+        HeaderNode: XmlNode;
+        ChildNodes: XmlNodeList;
     begin
         if not RootElement.SelectSingleNode('Header', HeaderNode) then
             Error('Header element not found.');
@@ -52,14 +53,14 @@ codeunit 50200 "DVLPR XML Reader Samples"
 
     local procedure ReadLines(RootElement: XmlElement; var OutputLines: List of [Text])
     var
-        LinesNode: XmlNode;
-        LinesElement: XmlElement;
-        LineNodeList: XmlNodeList;
-        LineNode: XmlNode;
-        LineElement: XmlElement;
-        ChildNodes: XmlNodeList;
-        ChildNode: XmlNode;
         ChildElement: XmlElement;
+        LineElement: XmlElement;
+        LinesElement: XmlElement;
+        ChildNode: XmlNode;
+        LineNode: XmlNode;
+        LinesNode: XmlNode;
+        ChildNodes: XmlNodeList;
+        LineNodeList: XmlNodeList;
     begin
         if not RootElement.SelectSingleNode('Lines', LinesNode) then
             Error('Lines element not found.');

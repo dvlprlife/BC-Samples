@@ -17,6 +17,7 @@ A collection of code samples and examples for Microsoft Dynamics 365 Business Ce
 | [typehelper1](typehelper1/) | Demonstrates useful procedures from the `Type Helper` codeunit | 50180–50189 |
 | [usercontrol1](usercontrol1/) | Creating a JavaScript control add-in that renders an animated scrolling banner | 50100–50109 |
 | [usercontrol2](usercontrol2/) | Hosting an interactive JavaScript arcade game inside a Business Central page via a control add-in | 50110–50119 |
+| [xmlreader1](xmlreader1/) | Demonstrates reading and parsing XML documents using `XmlDocument`, `XmlElement`, and related AL XML types | 50200–50209 |
 
 ## Who This Is For
 

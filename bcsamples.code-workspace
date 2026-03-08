@@ -45,6 +45,10 @@
             "path": "usercontrol2"
         },
         {
+            "name": "xmlreader1",
+            "path": "xmlreader1"
+        },
+        {
             "name": "supporting-files",
             "path": "supporting-files"
         }
@@ -76,7 +80,8 @@
             "Payables",
             "rolecenter",
             "scrolltext",
-            "usercontrol"
+            "usercontrol",
+            "xmlreader"
         ]
     }
 }

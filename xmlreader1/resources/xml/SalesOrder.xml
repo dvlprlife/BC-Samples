@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalesOrder>
+  <Header>
+    <OrderNo>SO-1001</OrderNo>
+    <CustomerNo>C-10000</CustomerNo>
+    <OrderDate>2026-03-01</OrderDate>
+    <Currency>USD</Currency>
+  </Header>
+  <Lines>
+    <Line>
+      <LineNo>10000</LineNo>
+      <ItemNo>ITEM-1000</ItemNo>
+      <Description>Widget A</Description>
+      <Quantity>5</Quantity>
+      <UnitPrice>12.50</UnitPrice>
+    </Line>
+    <Line>
+      <LineNo>20000</LineNo>
+      <ItemNo>ITEM-2000</ItemNo>
+      <Description>Widget B</Description>
+      <Quantity>3</Quantity>
+      <UnitPrice>25.00</UnitPrice>
+    </Line>
+  </Lines>
+</SalesOrder>
